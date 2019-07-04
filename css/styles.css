@@ -48,46 +48,6 @@
   background-color: #BFE1DA;
 }
 
-.header2 {
-  position: absolute;
-  width: 18%;
-  left: 20%;
-  overflow: hidden;
-  text-align: center;
-  height: 25px;
-  background-color: #BFE1DA;
-}
-
-.header3 {
-  position: absolute;
-  width: 18%;
-  left: 40%;
-  overflow: hidden;
-  text-align: center;
-  height: 25px;
-  background-color: #BFE1DA;
-}
-
-.header4 {
-  position: absolute;
-  width: 18%;
-  left: 60%;
-  overflow: hidden;
-  text-align: center;
-  height: 25px;
-  background-color: #BFE1DA;
-}
-
-.header5 {
-  position: absolute;
-  width: 18%;
-  left: 80%;
-  overflow: hidden;
-  text-align: center;
-  height: 25px;
-  background-color: #BFE1DA;
-}
-
 
 .header {
   position: absolute;
@@ -124,7 +84,31 @@
   top: 30px;
   text-align: center;
   color: #3b6484;
-  height: 240px;
+  height: 50px;
+  background-color: #D0F9DE;
+}
+
+
+.subtitle {
+  position: absolute;
+  width: 70%;
+  top: 90px;
+  left: 100px;
+  text-align: left;
+  color: #3b6484;
+  height: 70px;
+  background-color: #D0F9DE;
+}
+
+
+.tbl {
+  position: absolute;
+  width: 70%;
+  top: 160px;
+  left: 100px;
+  text-align: left;
+  color: #3b6484;
+  height: 70px;
   background-color: #D0F9DE;
 }
 
@@ -235,12 +219,65 @@ img {
   transform: translate(-50%, -50%);
 }
 
+table{
+    width: 100%;
+}
+
+th,
+td {
+    padding:30px 20px;
+    text-align:left;
+    border-bottom:1px solid #E1E1E1
+}
+th:first-child,
+td:first-child {
+    padding-left:0
+}
+    th:last-child,
+td:last-child {
+    padding-right:0
+}
 
 
+/* OFF STYLE*/
+/*
+.header2 {
+  position: absolute;
+  width: 18%;
+  left: 20%;
+  overflow: hidden;
+  text-align: center;
+  height: 25px;
+  background-color: #BFE1DA;
+}
 
+.header3 {
+  position: absolute;
+  width: 18%;
+  left: 40%;
+  overflow: hidden;
+  text-align: center;
+  height: 25px;
+  background-color: #BFE1DA;
+}
 
+.header4 {
+  position: absolute;
+  width: 18%;
+  left: 60%;
+  overflow: hidden;
+  text-align: center;
+  height: 25px;
+  background-color: #BFE1DA;
+}
 
-
-
-
-
+.header5 {
+  position: absolute;
+  width: 18%;
+  left: 80%;
+  overflow: hidden;
+  text-align: center;
+  height: 25px;
+  background-color: #BFE1DA;
+}
+*/

@@ -1,5 +1,4 @@
-function falert() 
-{
+function falert(){
     alert( "Привет" );
 }
 
@@ -11,10 +10,10 @@ function printTenNumbers() {
 }
 
 function cc(){
-    var r=Math.floor(Math.random() * (256));
-    var g=Math.floor(Math.random() * (256));
-    var b=Math.floor(Math.random() * (256));
-    var c='#' + r.toString(16) + g.toString(16) + b.toString(16);
+    var r = Math.floor(Math.random() * (256));
+    var g = Math.floor(Math.random() * (256));
+    var b = Math.floor(Math.random() * (256));
+    var c = '#' + r.toString(16) + g.toString(16) + b.toString(16);
     return c;
 }
 
