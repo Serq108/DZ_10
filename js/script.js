@@ -19,8 +19,6 @@ function cc(){
 
 function printDivs() {
     var divs = document.querySelectorAll('div');
-    var color;
-    var ccc;
     for (var i = 0; i < divs.length; ++i) {
         //color = divs[i].hasAttribute('class');
         console.log(divs[i]);
